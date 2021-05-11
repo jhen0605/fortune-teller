@@ -13,6 +13,9 @@
 		A73525FF2641E3A3005FCF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73525FD2641E3A3005FCF64 /* Main.storyboard */; };
 		A73526012641E3A4005FCF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73526002641E3A4005FCF64 /* Assets.xcassets */; };
 		A73526042641E3A4005FCF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73526022641E3A4005FCF64 /* LaunchScreen.storyboard */; };
+		A735260C2641E4C5005FCF64 /* RiiT_F.otf in Resources */ = {isa = PBXBuildFile; fileRef = A735260B2641E4C4005FCF64 /* RiiT_F.otf */; };
+		A73526102641E5D2005FCF64 /* CALayer+CALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A735260F2641E5D2005FCF64 /* CALayer+CALayer.m */; };
+		A7FC1E72264A2D0C00D3E888 /* 清松手寫體2jas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7FC1E71264A2D0C00D3E888 /* 清松手寫體2jas.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		A73526002641E3A4005FCF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73526032641E3A4005FCF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73526052641E3A4005FCF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A735260B2641E4C4005FCF64 /* RiiT_F.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RiiT_F.otf; sourceTree = "<group>"; };
+		A735260D2641E5D2005FCF64 /* fortune-teller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fortune-teller-Bridging-Header.h"; sourceTree = "<group>"; };
+		A735260E2641E5D2005FCF64 /* CALayer+CALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+CALayer.h"; sourceTree = "<group>"; };
+		A735260F2641E5D2005FCF64 /* CALayer+CALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CALayer.m"; sourceTree = "<group>"; };
+		A7FC1E71264A2D0C00D3E888 /* 清松手寫體2jas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "清松手寫體2jas.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +48,11 @@
 		A73525EB2641E3A3005FCF64 = {
 			isa = PBXGroup;
 			children = (
+				A735260E2641E5D2005FCF64 /* CALayer+CALayer.h */,
+				A735260F2641E5D2005FCF64 /* CALayer+CALayer.m */,
 				A73525F62641E3A3005FCF64 /* fortune-teller */,
 				A73525F52641E3A3005FCF64 /* Products */,
+				A735260D2641E5D2005FCF64 /* fortune-teller-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +67,8 @@
 		A73525F62641E3A3005FCF64 /* fortune-teller */ = {
 			isa = PBXGroup;
 			children = (
+				A7FC1E71264A2D0C00D3E888 /* 清松手寫體2jas.ttf */,
+				A735260B2641E4C4005FCF64 /* RiiT_F.otf */,
 				A73525F72641E3A3005FCF64 /* AppDelegate.swift */,
 				A73525F92641E3A3005FCF64 /* SceneDelegate.swift */,
 				A73525FB2641E3A3005FCF64 /* ViewController.swift */,
@@ -98,6 +111,7 @@
 				TargetAttributes = {
 					A73525F32641E3A3005FCF64 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -126,7 +140,9 @@
 			files = (
 				A73526042641E3A4005FCF64 /* LaunchScreen.storyboard in Resources */,
 				A73526012641E3A4005FCF64 /* Assets.xcassets in Resources */,
+				A735260C2641E4C5005FCF64 /* RiiT_F.otf in Resources */,
 				A73525FF2641E3A3005FCF64 /* Main.storyboard in Resources */,
+				A7FC1E72264A2D0C00D3E888 /* 清松手寫體2jas.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73525FC2641E3A3005FCF64 /* ViewController.swift in Sources */,
+				A73526102641E5D2005FCF64 /* CALayer+CALayer.m in Sources */,
 				A73525F82641E3A3005FCF64 /* AppDelegate.swift in Sources */,
 				A73525FA2641E3A3005FCF64 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = "fortune-teller/Info.plist";
@@ -295,6 +313,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jhen.fortune-teller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fortune-teller-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = "fortune-teller/Info.plist";
@@ -314,6 +335,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jhen.fortune-teller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fortune-teller-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
